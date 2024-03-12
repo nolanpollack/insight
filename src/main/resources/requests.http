@@ -1,0 +1,13 @@
+### Post Categories
+POST http://localhost:8080/categories
+content-type: application/json
+
+{
+    "name": "Groceries"
+}
+
+### Get Categories
+GET http://localhost:8080/categories
+
+### Get category by id
+GET http://localhost:8080/categories/c7ac21a2-e477-4bb7-8e05-8f1733e130e5
